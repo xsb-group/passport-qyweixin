@@ -1,4 +1,4 @@
-# passport-qyweixin v1.0.3
+# passport-qyweixin
 
 
 ##支持功能
