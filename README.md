@@ -37,7 +37,7 @@
 #### Authenticate Requests
 
 ```js
-  router.get('/auth/xx', passport.authenticate('hlg', {
+  router.get('/auth/xx', passport.authenticate('qyweixin', {
     failureRedirect: '/auth/fail',
     successReturnToOrRedirect: '/'
   }));
@@ -49,7 +49,7 @@ If no callbackURL is specified, the same request url will be used.
 #### Authentication Callback
 
 ```js
-  router.get('/auth/wechat/hlg', passport.authenticate('hlg', {
+  router.get('/auth/wechat/qyweixin', passport.authenticate('qyweixin', {
     failureRedirect: '/auth/fail',
     successReturnToOrRedirect: '/'
   }));
