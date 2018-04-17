@@ -1,0 +1,57 @@
+{
+  "_args": [
+    [
+      "passport-qyweixin@0.1.5",
+      "/Users/sharkseven/HLG/workspace/projects"
+    ]
+  ],
+  "_from": "passport-qyweixin@0.1.5",
+  "_id": "passport-qyweixin@0.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-7hNvFfV24MCfvacwOnxo4ZtAcB0=",
+  "_location": "/passport-qyweixin",
+  "_phantomChildren": {
+    "ms": "2.0.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "passport-qyweixin@0.1.5",
+    "name": "passport-qyweixin",
+    "escapedName": "passport-qyweixin",
+    "rawSpec": "0.1.5",
+    "saveSpec": null,
+    "fetchSpec": "0.1.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/passport-qyweixin/download/passport-qyweixin-0.1.5.tgz",
+  "_spec": "0.1.5",
+  "_where": "/Users/sharkseven/HLG/workspace/projects",
+  "dependencies": {
+    "debug": "latest",
+    "passport": "^0.3.0",
+    "passport-strategy": "^1.0.0",
+    "request": "^2.81.0"
+  },
+  "description": "passport strategy for authenticating with hlg",
+  "devDependencies": {
+    "eslint": "^1.4.1"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "passport",
+    "qiyewinxin",
+    "wechat work"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "passport-qyweixin",
+  "scripts": {
+    "eslint": "eslint ./app"
+  },
+  "version": "0.1.5"
+}
